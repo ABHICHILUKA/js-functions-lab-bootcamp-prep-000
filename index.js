@@ -9,7 +9,7 @@
     var c =`Happy ${holiday}, ${name}!`
     return(c)
   }
-  function holidayCountdown( $holiday , $days){
+  function holidayCountdown( $days , $holiday){
    var c = `It's ${days} days until ${holiday}!`
     return(c)
     
