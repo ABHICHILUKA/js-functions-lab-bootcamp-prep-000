@@ -2,13 +2,15 @@
    return("Happy holidays!")
  }
  function happyHolidaysTo($name){
-   var c = 
-   return(`Happy holidays, ${name}!`)
+   var c = `Happy holidays, ${name}!`
+   return(c)
   }
   function happyHolidayTo($holiday , $name){
-    return(`Happy ${holiday}, ${name}!`)
+    var c =`Happy ${holiday}, ${name}!`
+    return(c)
   }
   function holidayCountdown( $holiday , $days){
-    return(`It's ${days} days until ${holiday}!`)
+   var c = `It's ${days} days until ${holiday}!`
+    return(c)
     
   }
