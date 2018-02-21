@@ -2,6 +2,7 @@
    return("Happy holidays!")
  }
  function happyHolidaysTo($name){
+   var c = 
    return(`Happy holidays, ${name}!`)
   }
   function happyHolidayTo($holiday , $name){
