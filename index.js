@@ -1,15 +1,15 @@
  function happyHolidays() {
    return("Happy holidays!")
  }
- function happyHolidaysTo(String){
+ function happyHolidaysTo(String name){
    var c = `Happy holidays, ${name}!`
    return(c)
   }
-  function happyHolidayTo( String $holiday , String $name){
+  function happyHolidayTo( String holiday , String name){
     var c =`Happy ${holiday}, ${name}!`
     return(c)
   }
-  function holidayCountdown( Number $days , string $holiday){
+  function holidayCountdown( Number days , string holiday){
    var c = `It's ${days} days until ${holiday}!`
     return(c)
     
